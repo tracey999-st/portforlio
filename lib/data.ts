@@ -1,4 +1,17 @@
 // Personal information - Modify this with your own data
+
+// Type definitions
+export interface Project {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  github: string;
+  demo: string | null;
+  featured: boolean;
+}
+
 export const personalInfo = {
   name: "Tracy Wang",
   title: "技术+商科背景的AI Builder",
